@@ -1,0 +1,54 @@
+body {
+    background-color: #3C4FB0 !important;
+}
+
+.header {
+    background-color: crimson;
+}
+
+#location {
+    width: 30%;
+}
+
+.verificar {
+    background-color: darkviolet;
+    border-radius: 40px;
+    border: 1px solid;
+    box-shadow: 0 2px black;
+}
+
+.verificar:hover {
+    background-color: rgb(104, 46, 129);
+}
+
+.verificar:active {
+    transform: translateY(4px);
+}
+
+.header h1 {
+    margin-left: 2%;
+    font-size: 1.7rem;
+    padding: 1%;
+    color: cornsilk;
+}
+
+.information {
+    padding: 1%;
+    color: cornsilk;
+    text-align: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.information-down {
+    display: flex;
+    justify-content: center;
+    color: darkred;
+    background-color: royalblue;
+}
+
+#location_info,
+#temperature,
+#weather-type {
+    margin: 1%;
+}
