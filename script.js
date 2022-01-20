@@ -13,8 +13,8 @@ function checkLocation(location = document.querySelector("#location").value) {
 
     const proxy = "https://cors-anywhere.herokuapp.com/";
     const apikey = config.MY_API_TOKEN;
+
     const api = `${proxy}api.openweathermap.org/data/2.5/weather?q=${ location }&lang=pt_br&appid=${apikey}`;
-    console.log(api);
     fetch(api)
         .then(response => {
             return response.json();
